@@ -1,0 +1,125 @@
+{
+    "otrloginpage": {
+        "username": "input[name='userid']",
+        "NextBtn": "button:has-text('Next')",
+        "password": "input[name='password']",
+        "LogonBtn": "text=Log on"
+    },
+    "otrHomePage": {
+        "createDeal": "div[role='button']:has-text('Deal anlegen')"
+    },
+    "findCustomer": {
+        "searchCustomer": "input[type='text']",
+        "searchButton": "button",
+        "createCustomerButton": "text=Kunde anlegen",
+        "viewDeal": "div.searchResults--1dxpn0R6SuGiv8aWjGjfQK button"
+    },
+    "createCustomer": {
+        "salutationRBtnHerr": "text=Herr",
+        "salutationRBtnFrau": "text=Frau",
+        "firstName": "input[name='firstName']",
+        "lastName": "input[name='lastName']",
+        "customerDetailsEntryLink": "text=Kunde anlegen und weitere Kundendaten eingeben",
+        "dateOfBirth": "[data-testid='DateInput']",
+        "MobileNumber": "input[name='alternatePhone']",
+        "Email": "input[name='email']",
+        "Street": "input[name='street']",
+        "HouseNumber": "input[name='houseNumber']",
+        "PostalCode": "input[name='postalCode']",
+        "Location": "input[name='city']",
+        "SaveOnComputer": "text=Speichern",
+        "OtrLogo": "img[alt='daimler otr logo']"
+    },
+    "CustomerlandingPage": {
+        "createDealLink": "span:has-text('Deal anlegen')",
+        "konfiguratorTile": "p:has-text('Konfigurator')",
+        "pricingInformation": "span:has-text('Preisangaben')",
+        "financialServices": "p:has-text('Finanzdienstleistungen')"
+    },
+    "configuratorUi": {
+        "vehicleSearch": "[placeholder='Fahrzeugsuche']",
+        "vehicleSearchResult": "#konfigurator-vehicles-list li",
+        "configurationOverviewBtn": "text=Konfigurationsübersicht",
+        "addToDealBtn": "text=Zum Deal hinzufügen"
+    },
+    "pricingInformation": {
+        "disposalDiscount": "text=In Prozent % >> [placeholder='\\30 \\,00']",
+        "additionalCondRelative": "text=Zusatzkonditionen relativ % >> [placeholder='\\30 \\,00']",
+        "additionCondAbsolute": "text=Fix % >> [placeholder='\\30 \\,00']",
+        "transfercost": "select[name='pickup-cost-option']",
+        "saveAndCloseBtn": "text=Speichern und schließen"
+    },
+    "financialServices": {
+        "saveAndGoToUnite": "[data-test-id='save-and-go-to-unite']",
+        "posAddBtn": "[aria-label='Add']",
+        "leasingMBLDoption": "text=Leasing (MBLD) hinzufügen",
+        "toTheApplication": "text=Zum Antrag",
+        "custfirstname": "input[id='firstName']",
+        "custlastname": "input[id='lastName']",
+        "custemail" : "input[id='email']",
+        "custStreet" : "input[id='street']",
+        "custHouseNum" : "input[id='houseNumber']",
+        "custpostalcode" : "input[id='postalCode']",
+        "custCity" : "input[id='city']",
+        "custCountry" : "div.css-1r6g4sz-singleValue"
+    },
+    "kalkulationHinzifugen": {
+        "leasingSpecialPayment": "input[name='deposit_amount']",
+        "duration": "select[name='period_months']",
+        "totalMilege": "select[name='total_mileage']",
+        "leaseDirectCreditDetail": "input[name='subsidyLeasingCalcApp']",
+        "addCalculation": "button:has-text('Kalkulation hinzufügen')"
+    },
+    "posCustomerData": {
+        "dateOfBirth": "input[name='dateOfBirth']",
+        "mobileNumber": "input[name='phoneNumber']",
+        "continueBtn": "text=Weiter"
+    },
+    "posIdentificationDetails": {
+        "placeOfBirth": "input[name='placeOfBirth']",
+        "nationality": "select[name='nationality']",
+        "documentType": "select[name='documentType']",
+        "identificationNumber": "input[name='identificationNumber']",
+        "placeOfIssue": "input[name='placeOfIssue']",
+        "dateOfIssue": "input[name='dateOfIssue']",
+        "validUntil": "input[name='validUntil']",
+        "checkbox": "div[class='wb-checkbox-control__checkmark-icon']>>wb-icon[name='bds/checkmark/24']",
+        "continueBtn": "button:has-text('Weiter')"
+    },
+    "posCreditdata":    {
+        "professionalStatusDrp": "select[name='profession']",
+        "netIncome":    "input[name='netIncome']",
+        "occupiedSince":    "input[name='occupiedSince']",
+        "maritalStatus": "select[name='maritalState']",
+        "numberOfChildredDrp": "select[name='numberOfChildren']",
+        "continueBtn": "button:has-text('Weiter')"
+    },
+    "posAccountInformation": {
+        "iban": "input[name='iban']",
+        "checkbox": "text=Der Händler hat den Kunden auf die Datenschutzhinweise hingewiesen >> wb-icon",
+        "startCreditCheckBtn": "text=Kreditprüfung starten"
+    },
+    "posCreditCheck": {
+        "continueBtn": "button[type='submit']"
+    },
+    "posSummary": {
+        "downloadAndSignApplnBtn": "text=Antrag herunterladen & signieren"
+    },
+    "posStarMomentsUi": {
+        "navigateToPartnerConnectBtn": "a:has-text('Weiter in PartnerConnect!neo')"
+    },
+    "pcNeo": {
+        "contractFunctionsBtn": "text=Funktionen zum Vertrag",
+        "submitMBA": "text=MBA übermitteln",
+        "mbOrderNumbertbx": "[placeholder='Nummer eingeben']",
+        "OkBtn": "button:has-text('Ok')",
+        "toUploadDocuments": "text=Dokumente hochladen",
+        "setInputFileslocator": "input[accept='.pdf,.doc,.xls,.docx,.xlsx,.jpg,.jpeg,.tiff,.tif,.png,.gif']",
+        "pleaseChoosedoctype": "select.MuiSelect-root.MuiSelect-select.MuiSelect-outlined.MuiInputBase-input.MuiFilledInput-input",
+        "uploadDocumentsBtn" : "button[type='submit']>>text='Dokumente hochladen'",
+        "documentsUploadaccordian": "h5:has-text('Dokumente (Upload)')",
+        "documentTypeDrpicon": "wb-icon[name='bds/caret-down/24']"
+
+    }
+
+}

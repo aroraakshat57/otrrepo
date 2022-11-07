@@ -1,0 +1,12 @@
+node_modules
+test-results
+.env
+playwright-report
+actions-runner
+my-report
+.zip
+sap-report
+/test-results/
+/playwright-report/
+/playwright/.cache/
+downloads

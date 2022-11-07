@@ -1,0 +1,24 @@
+{
+    "mockOtrPage":{
+        "mockDataSelect":"select[name='mockId']",
+        "replaceUsername":"input[name='userName']",
+        "relpaceNDLVP":"input[name='ndlvp']",
+        "sendButton":"button[type='submit']"
+    },
+    "customerDetails":{
+        "salutation": "select[name='salutation']",
+        "title":"select[name='title']",
+        "firstName":"input[name='firstname']",
+        "surname":"input[name='surname']",
+        "dob":"input[name='dateOfBirth']",
+        "mobileNo":"input[name='phoneNumber']",
+        "email":"input[name='email']",
+        "street":"input[name='street']",
+        "houseNo":"input[name='streetNumber']",
+        "postcode":"input[name='postcode']",
+        "city":"input[name='city']",
+        "country":"select[name='country']",
+        "continueButton":"button[type='submit']"
+    } 
+
+}

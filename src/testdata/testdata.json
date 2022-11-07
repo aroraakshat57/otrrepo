@@ -1,0 +1,90 @@
+{
+  "common": {
+    "Project": {
+      "runProperties": {
+        "platform": "local",
+        "testEnvironment": "INTEGRATION",
+        "testResult": {
+          "MBLDFSA-2810": "FAIL",
+          "MBLDFSA-2856": "FAIL",
+          "MBLDFSA-2879": "FAIL",
+          "MBLDFSA-2885": "FAIL",
+          "MBLDFSA-2891": "FAIL"
+        }
+      }
+    },
+    "application": {
+      "alfa": {
+        "DEV": "https://dev.mbld.mercedes-benz.com/alfa/",
+        "SANDBOX": "https://sandbox.mbld.mercedes-benz.com/alfa/",
+        "INTEGRATION": "https://integration.mbld.mercedes-benz.com/alfa/",
+        "TIME": "https://time.mbld.mercedes-benz.com/alfa/",
+        "PERFORMANCE": "https://performance.mbld.mercedes-benz.com/alfa/",
+        "PREPROD": "https://preprod.mbld.mercedes-benz.com/alfa/"
+      },
+      "alfaTestData": {
+        "thirdpartyNumber": "5000025950/1",
+        "proposalNumber": "110000017096",
+        "MBNumber": "1100218078"
+      },
+      "djim": {
+        "DEV": "https://dev.mbld.mercedes-benz.com/djim",
+        "INTEGRATION": "https://integration.mbld.mercedes-benz.com/djim",
+        "PERFORMANCE": "https://performance.mbld.mercedes-benz.com/djim",
+        "PREPROD": "https://preprod.mbld.mercedes-benz.com/djim",
+        "SANDBOX": "https://sandbox.mbld.mercedes-benz.com/djim",
+        "TIME": "https://time.mbld.mercedes-benz.com/djim",
+        "TIMEDEV": "https://timedev.mbld.mercedes-benz.com/djim"
+      },
+      "otr": {
+        "DEV": "",
+        "SANDBOX": "",
+        "INTEGRATION": "https://otr-int.i.mercedes-benz.com/",
+        "TRAIN": "https://otr-train.i.mercedes-benz.com/",
+        "TIME": "",
+        "PERFORMANCE": "",
+        "PREPROD": ""
+      },
+      "OTRtestdata": {
+        "baumster": "2951121",
+        "testdata_2810": "/testData/MBLDFSA-2810.csv",
+        "testdata_FSaaS": "/testData/FSaaSdata.csv",
+        "testdata_2891": "/testData/MBLDFSA-2891.csv"
+      },
+      "mockIntp": {
+        "DEV": "",
+        "SANDBOX": "",
+        "INTEGRATION": "https://intp-posv.mercedes-benz-bank.de/vergleich/mock",
+        "TIME": "",
+        "PERFORMANCE": "",
+        "PREPROD": ""
+      }
+    },
+    "apiEndpoints": {
+      "djim": {
+        "newCalculations": "/pos/1.0/de/calculations",
+        "createCustomerAddToQuote": "`/pos/0.1/quotes/${quoteId}/customer`",
+        "updateCustomer": "`/pos/0.1/quotes/${quoteId}/customer/${customerId}`",
+        "createProposalFCSCalculation": "/pos/1.0/quotes/",
+        "addMBAutragsnummer": "`/dealerportal/0.1/contracts/${proposalId}/vehicleOrderNumber`"
+      },
+      "alfa": {
+        "activateContract": "json/proposal/v1/activation/activate",
+        "saveIndividual": "json/third-party/v1/third-party/saveIndividual",
+        "saveThirdPartyMiscInfoItems": "json/third-party/v1/miscinfo/saveThirdPartyMiscInfoItems",
+        "saveDealership": "json/third-party/v1/third-party/saveDealership",
+        "saveSoleTrader": "json/third-party/v1/third-party/saveSoleTrader",
+        "saveCorporation": "json/third-party/v1/third-party/saveCorporation",
+        "saveVehicle": "json/asset/v2/asset/saveVehicle",
+        "saveProposal": "json/proposal/v2/proposal/save",
+        "loadThirdParty": "json/third-party/v1/third-party/loadThirdParty",
+        "saveDealerFrameAgreementLink": "json/contract/v1/frame-agreement/saveDealerFrameAgreementLink",
+        "listApplicableFrameAgreementsAndPricingTerms": "json/pointofsale/v1/frame/listApplicableFrameAgreementsAndPricingTerms",
+        "createQuote": "json/pointofsale/v2/quote/create",
+        "evaluateQuote": "json/pointofsale/v2/quote/evaluate",
+        "saveQuote": "json/pointofsale/v2/quote/save",
+        "loadSavedQuote": "`json/pointofsale/v2/quote/load?agreementNumber=${savedQuoteNumber}`"
+      }
+    }
+  }
+}

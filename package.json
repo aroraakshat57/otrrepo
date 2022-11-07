@@ -1,0 +1,19 @@
+{
+  "name": "fsaas_regressionsuite",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {},
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.27.1"
+  },
+  "dependencies": {
+    "crypto-random-string": "^3.3.1",
+    "csv": "^6.2.1",
+    "csv-writer": "^1.6.0",
+    "dotenv": "^16.0.3"
+  }
+}
